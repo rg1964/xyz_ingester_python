@@ -1,4 +1,4 @@
-# xyz_ingester_python
+# XYZ Data Format Ingester for Citrination
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
