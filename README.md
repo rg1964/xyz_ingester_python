@@ -23,21 +23,27 @@ The test uses data from QM9:
 	https://figshare.com/articles/Data_for_6095_constitutional_isomers_of_C7H10O2/1057646
 
 This is a relatively large data set, and one ca use only a representative subset of this data for illustration purposes.
-The main journal article that describes this data set (and the data file structure) cann be found here: 
+The main journal article that describes this data set (and the data file structure) can be found here: 
 
 	https://www.nature.com/articles/sdata201422
 
 ## Getting Started
 
-
+These instructions will give an overview on the components of the project and how to run it.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+This project has been developed with Python 3.7.3, and the following packages are used by the different components:
 
-```
-Give examples
-```
+* os
+* requests
+* tarfile
+* shutil
+* random
+* argparse
+* pypif and pypif.obj
+* citrination_client
+* string
 
 ### Installing
 
