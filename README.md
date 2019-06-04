@@ -1,4 +1,11 @@
 # XYZ Data Format Ingester for Citrination
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/rg1964/xyz_ingester_python">
+    <img src="view-source:https://1hrkl410nh36441q7v2112ft-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/cropped-favicon-source-180x180.png" alt="Logo" width="80" height="80">
+  </a>
+</p>
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
