@@ -1,0 +1,1000 @@
+{
+    "tags": [
+        "quantum machine",
+        "QM9",
+        "GDB-9"
+    ],
+    "ids": [
+        {
+            "value": "3201",
+            "name": "file id"
+        }
+    ],
+    "properties": [
+        {
+            "name": "number of atoms $n_{a}$",
+            "scalars": {
+                "value": "15"
+            }
+        },
+        {
+            "name": "gdb database indentifier",
+            "scalars": [
+                {
+                    "value": "gdb"
+                }
+            ],
+            "units": ""
+        },
+        {
+            "scalars": [
+                {
+                    "value": "4.10431"
+                }
+            ],
+            "units": "GHz",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Rotational constant A"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "3.46479"
+                }
+            ],
+            "units": "GHz",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Rotational constant B"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "3.05522"
+                }
+            ],
+            "units": "GHz",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Rotational constant C"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "2.4849"
+                }
+            ],
+            "units": "D",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Dipole moment $\\mu$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "55.12"
+                }
+            ],
+            "units": "$\\AA_{0}^{3}$",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Isotropic polarizability $\\alpha$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "-0.2475"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Energy of HOMO $\\epsilon$HOMO"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "0.0878"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Energy of LUMO $\\epsilon$LUMO"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "0.3353"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "$\\epsilon$Gap $\\epsilon$LUMO-$\\epsilon$HOMO"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "552.7923"
+                }
+            ],
+            "units": "$\\AA_{0}^{2}$",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Electronic spatial extent $< R^{2} >$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "0.128648"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "",
+            "name": "Zero point vibrational energy $zpve$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "-345.659797"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "0 K",
+            "name": "Internal energy $U_{0}$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "-345.654708"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "298.15 K",
+            "name": "Internal energy $U$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "-345.653764"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "298.15 K",
+            "name": "Enthalpy $H$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "-345.688445"
+                }
+            ],
+            "units": "Ha",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "298.15 K",
+            "name": "Free energy $G$"
+        },
+        {
+            "scalars": [
+                {
+                    "value": "20.536"
+                }
+            ],
+            "units": "cal / (mol K)",
+            "dataType": "COMPUTATIONAL",
+            "Temperature": "298.15 K",
+            "name": "Heat capacity $C_{v}$"
+        },
+        {
+            "relaxationType": "GDB-17",
+            "name": "SMILES strings from GDB-17",
+            "scalars": [
+                "C1OC2CC1CO2"
+            ]
+        },
+        {
+            "relaxationType": "B3LYP",
+            "name": "SMILES strings from B3LYP relaxation",
+            "scalars": [
+                "C1O[C@@H]2C[C@H]1CO2"
+            ]
+        },
+        {
+            "geometryType": "Corina",
+            "name": "InChI strings for Corina geometries",
+            "scalars": [
+                "1S/C5H8O2/c1-4-2-6-5(1)7-3-4/h4-5H,1-3H2"
+            ]
+        },
+        {
+            "geometryType": "B3LYP",
+            "name": "InChI strings for B3LYP geometries",
+            "scalars": [
+                "1S/C5H8O2/c1-4-2-6-5(1)7-3-4/h4-5H,1-3H2/t4-,5+"
+            ]
+        }
+    ],
+    "category": "system.chemical",
+    "chemicalFormula": "C5H8O2",
+    "subsystem": [
+        {
+            "names": [
+                "Element type, coordinate (x, y, z, in $\\AA$), Mulliken partial charges (in $e$) on atoms"
+            ],
+            "properties": [
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "C"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "-0.0071966649"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "1.5640687294"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.0135025521"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "-0.069286"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "O"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "1.3869343979"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "1.9417653178"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.0288308262"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "-0.269494"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "C"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "2.1031030326"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "0.717263663"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.0025645723"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.222386"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "C"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "1.2679275942"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "-0.2100167456"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.8887623105"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "-0.252165"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "C"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "0.0430618085"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "0.0249555001"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "0.0216581542"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "-0.090001"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "C"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "0.6576580378"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "-0.3655363253"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "1.3790194179"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "-0.069286"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "O"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "2.01330808"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "0.1238467338"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "1.2830392688"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "-0.269492"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "-0.4948561196"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "1.994888781"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "0.8687278505"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.104603"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "-0.5022681544"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "1.9498356825"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.9137549029"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.09951"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "3.1489079278"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "0.9119195069"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.2321560317"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.092357"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "1.1443063212"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "0.1626439095"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-1.9072753815"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.108643"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "1.627788474"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "-1.2405467651"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.8946651248"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.108643"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "-0.8899504788"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "-0.4781084469"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "-0.2299661395"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.079468"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "0.1541140689"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "0.1114662647"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "2.2279376339"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.104603"
+                        }
+                    ],
+                    "units": "$e$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Element type",
+                    "scalars": [
+                        {
+                            "value": "H"
+                        }
+                    ],
+                    "units": ""
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate x",
+                    "scalars": [
+                        {
+                            "value": "0.6694646747"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate y",
+                    "scalars": [
+                        {
+                            "value": "-1.4509603757"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "coordinate z",
+                    "scalars": [
+                        {
+                            "value": "1.5405023861"
+                        }
+                    ],
+                    "units": "$\\AA$"
+                },
+                {
+                    "dataType": "COMPUTATIONAL",
+                    "name": "Mulliken partial charges on atoms",
+                    "scalars": [
+                        {
+                            "value": "0.099512"
+                        }
+                    ],
+                    "units": "$e$"
+                }
+            ],
+            "category": "system.chemical"
+        },
+        {
+            "names": [
+                "Harmonic vibrational frequencies ($cm^{-1}$)"
+            ],
+            "properties": [
+                {
+                    "name": "39 harmonic vibrational frequencies ($3 \\cdot n_{a}-6$)",
+                    "scalars": {
+                        "value": "201.3823,390.0453,477.1911,509.7046,595.7552,797.2514,823.46,855.5174,900.1537,925.2117,927.4909,953.3336,956.5501,969.5538,978.2752,1074.7397,1085.182,1114.682,1133.4162,1177.3233,1193.7111,1253.477,1272.1198,1310.462,1311.9183,1321.1891,1377.5567,1392.15,1487.1415,1519.0176,1535.1427,3015.3465,3017.4231,3056.5241,3062.4799,3077.5583,3127.9855,3138.5164,3153.9887"
+                    },
+                    "units": "$cm^{-1}$"
+                }
+            ],
+            "category": "system.chemical"
+        }
+    ]
+}
