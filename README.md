@@ -1,4 +1,21 @@
 # xyz_ingester_python
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 This is an implementation of an ingester to transform a Python pandas dataframe into the PIF format.  
 It includes a function [xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) that takes in a Python pandas dataframe and outputs a PIF file.
 The test uses data from QM9:
@@ -10,13 +27,9 @@ The main journal article that describes this data set (and the data file structu
 
 	https://www.nature.com/articles/sdata201422
 
-# Project Title
-
-One Paragraph of project description goes here
-
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### Prerequisites
 
