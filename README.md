@@ -18,14 +18,9 @@
 ## About The Project
 This is an implementation of an ingester to transform a Python pandas dataframe into the PIF format.  
 It includes a function [xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) that takes in a Python pandas dataframe and outputs a PIF file.
-The test uses data from QM9:
-
-	https://figshare.com/articles/Data_for_6095_constitutional_isomers_of_C7H10O2/1057646
-
+The test uses data from [QM9](https://figshare.com/articles/Data_for_6095_constitutional_isomers_of_C7H10O2/1057646).
 This is a relatively large data set, and one ca use only a representative subset of this data for illustration purposes.
-The main journal article that describes this data set (and the data file structure) can be found here: 
-
-	https://www.nature.com/articles/sdata201422
+The main journal article that describes this data set (and the data file structure) can be found [here](https://www.nature.com/articles/sdata201422).
 
 ## Getting Started
 
