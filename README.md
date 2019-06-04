@@ -33,7 +33,7 @@ The main journal article that describes this data set (and the data file structu
 
 ## Getting Started
 
-These instructions will give an overview on the components of the project and how to run it.
+This is an overview of the components of the project as well as details on how to make the best use of it.
 
 ### Prerequisites
 
@@ -49,23 +49,32 @@ This project has been developed with Python 3.7.3, and the following packages ar
 * citrination_client
 * string
 
-### Installing
+### Usage Flow
 
-A step by step series of examples that tell you how to get a development env running
+This repository contains 4 files, that should be used in a sequential manner:
 
-Say what the step will be
+1. Download the full QM9 dataset archive and extract it to predefined local directory:
+```
+python.exe 0_GDB-9_files_downloader.py
+```
+2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory with the selected files: 
 
 ```
-Give the example
-```
+usage: 1_random_files_selector.py [-h] [-n NRFILES]
 
-And repeat
+select a number of random xyz files from "GDB-9-molecules-all" directory and
+copy to "Randomized-xyz"
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -n NRFILES, --nrfiles NRFILES
+                        number of files to select randomly
+```
+This is an optional step, mainly designed for visually testing the results of uploading the pif files on Citrination database and analytics platform. Skipping this step will result in processing the entire database of 134K files in one shot. For example, to randomly select 200 .XYZ files from the archive and place them in the 'Randomized-xyz' directory, one needs to run the following command:
 
 ```
 until finished
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
