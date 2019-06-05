@@ -15,8 +15,8 @@ SOURCE_DIR = 'GDB-9-molecules-all'
 DEST_DIR = 'Randomized-xyz'
 
 
-#Defining the function which parses the user supplied number of files "nr_files" 
-#to be selected randomly from the unpacked directory of XYZ files
+# Defining the function which parses the user supplied number of files "nr_files" 
+# to be selected randomly from the unpacked directory of XYZ files
 
 def random_files_selector(*args):
     """ Reads in the user supplied number of files, selects randomly the requested
