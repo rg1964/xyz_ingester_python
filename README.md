@@ -73,7 +73,7 @@ python.exe 1_random_files_selector.py -n 200
 ```
 3. Convert the random selection of .xyz files into PIF format with the aid of [2_xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py):
 ```
-python.exe' 2_xyz_converter.py -a D:\Citrine\xyz_ingester_python\Randomized-xyz\
+python.exe 2_xyz_converter.py -a D:\Citrine\xyz_ingester_python\Randomized-xyz\
 ```
 The general format for using [2_xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) is this:
 ```
