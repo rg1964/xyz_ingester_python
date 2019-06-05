@@ -56,7 +56,7 @@ def converter(*args):
 
     # Depending on the command line input, process data and create a PIF file
     # 
-    # This is the case when the user specifies a directory and list of files to be processed
+    # Below is the case when the user specifies a directory and a list of files to be processed
     # from that directory
     if args.listd:
         data_directory = args.listd[0]
@@ -69,7 +69,7 @@ def converter(*args):
             with open(DEST_DIR + filename_list[i].replace('.xyz', '.json'), 'w') as fw:
                 pif.dump(my_pif, fw, indent = 4)
 
-    # the case when the user specifies a directory and all files
+    # Belwo is the case when the user specifies a directory and all files
     # from that directory need to be processed
     elif args.alld:
         data_directory = str(args.alld[0])
@@ -81,7 +81,7 @@ def converter(*args):
             with open(DEST_DIR + filename_list[i].replace('.xyz', '.json'), 'w') as fw:
                 pif.dump(my_pif, fw, indent = 4)
 
-    # the case when the users specifies a list of distinct files with their full path
+    # Below is the case when the users specifies a list of distinct files with their full path
     # that need to be processed
     elif args.files:
         filename_fullpath_list = [str(item) for item in args.files[0].split(',')]
