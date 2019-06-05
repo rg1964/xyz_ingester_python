@@ -15,7 +15,7 @@
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Usage Flow](#usage-flow)
-* [Questions](#questions)
+* [Support](#support)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -97,5 +97,5 @@ optional arguments:
 ```
 python.exe 3_citrination_uploader.py
 ```
-## Questions
-For any questions, please send an email to [Roman Gafiteanu](mailto:Roman.Gafiteanu@gmail.com).
+## Support
+For any issues or questions, please send an email to [Roman Gafiteanu](mailto:Roman.Gafiteanu@gmail.com).
