@@ -53,11 +53,11 @@ This project has been developed with Python 3.7.3, and the following packages ar
 
 This repository contains 4 files, that should be used in a sequential manner:
 
-1. Download the full QM9 dataset archive and extract it to predefined local directory:
+1. Download the full QM9 dataset archive and extract it to predefined local directory "GDB-9-molecules-all":
 ```
 python.exe 0_GDB-9_files_downloader.py
 ```
-2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory with the selected files: 
+2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory "Randomized-xyz" with the selected files: 
 
 ```
 usage: 1_random_files_selector.py [-h] [-n NRFILES]
@@ -73,7 +73,7 @@ optional arguments:
 This is an optional step, mainly designed for visually testing the results of uploading the pif files on Citrination database and analytics platform. Skipping this step will result in processing the entire database of 134K files in one shot. For example, to randomly select 200 .XYZ files from the archive and place them in the 'Randomized-xyz' directory, one needs to run the following command:
 
 ```
-until finished
+python.exe 1_random_files_selector.py -n 200
 ```
 
 ## Running the tests
