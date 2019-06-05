@@ -51,7 +51,7 @@ This repository contains 4 files, that should be used in a sequential manner:
 ```
 python.exe 0_GDB-9_files_downloader.py
 ```
-2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory 'Randomized-xyz' with the selected files by using [1_random_files_selector.py](https://github.com/rg1964/xyz_ingester_python/blob/master/1_random_files_selector.py): 
+2. Select at random a user-defined number of files from the extracted archive and populate a pre-defined directory 'Randomized-xyz' with the selected files by using [1_random_files_selector.py](https://github.com/rg1964/xyz_ingester_python/blob/master/1_random_files_selector.py): 
 
 ```
 usage: 1_random_files_selector.py [-h] [-n NRFILES]
