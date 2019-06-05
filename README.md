@@ -70,8 +70,8 @@ optional arguments:
   -n NRFILES, --nrfiles NRFILES
                         number of files to select randomly
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;This is an optional step, mainly designed for visually testing the results of uploading the pif files on Citrination database and analytics platform. Skipping this step will result in processing the entire database of 134K files in one shot.
-&nbsp;&nbsp;&nbsp;&nbsp;For example, to randomly select 200 .XYZ files from the archive and place them in the 'Randomized-xyz' directory, one needs to run the following command:
+<h3 style="text-indent: 15em;">This is an optional step, mainly designed for visually testing the results of uploading the pif files on Citrination database and analytics platform. Skipping this step will result in processing the entire database of 134K files in one shot.</h3>
+<h3 style="text-indent: 15em;">For example, to randomly select 200 .XYZ files from the archive and place them in the 'Randomized-xyz' directory, one needs to run the following command:</h3>
 
 ```
 python.exe 1_random_files_selector.py -n 200
