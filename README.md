@@ -47,11 +47,11 @@ This project has been developed with Python 3.7.3, and the following packages ar
 
 This repository contains 4 files, that should be used in a sequential manner:
 
-1. Download the full QM9 dataset archive and extract it to predefined local directory "GDB-9-molecules-all" by using [0_GDB-9_files_downloader.py](https://github.com/rg1964/xyz_ingester_python/blob/master/0_GDB-9_files_downloader.py):
+1. Download the full QM9 dataset archive and extract it to predefined local directory 'GDB-9-molecules-all' by using [0_GDB-9_files_downloader.py](https://github.com/rg1964/xyz_ingester_python/blob/master/0_GDB-9_files_downloader.py):
 ```
 python.exe 0_GDB-9_files_downloader.py
 ```
-2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory "Randomized-xyz" with the selected files by using [1_random_files_selector.py](https://github.com/rg1964/xyz_ingester_python/blob/master/1_random_files_selector.py): 
+2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory 'Randomized-xyz' with the selected files by using [1_random_files_selector.py](https://github.com/rg1964/xyz_ingester_python/blob/master/1_random_files_selector.py): 
 
 ```
 usage: 1_random_files_selector.py [-h] [-n NRFILES]
