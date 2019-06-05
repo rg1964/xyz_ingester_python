@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rg1964/xyz_ingester_python">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="/misc/logo.png" alt="Logo" width="80" height="80">
   </a>
 </p>
 
