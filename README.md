@@ -81,7 +81,7 @@ python.exe 1_random_files_selector.py -n 200
 ```
 python.exe' 2_xyz_converter.py -a D:\Citrine\xyz_ingester_python\Randomized-xyz\
 ```
-The general format for using [xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) is this:
+The general format for using [2_xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) is this:
 ```
 usage: 2_xyz_converter.py [-h] (-l LISTD LISTD | -a ALLD | -f FILES)
 
@@ -99,6 +99,11 @@ optional arguments:
                         1 argument: a comma separated list of filenames with
                         their full paths to process
 ```
+4. Upload the generated PIF files on Citrination with the aid of [3_citrination_uploader.py](https://github.com/rg1964/xyz_ingester_python/blob/master/3_citrination_uploader.py):
+```
+python.exe 3_citrination_uploader.py
+```
+
 ## Running the tests
 
 Explain how to run the automated tests for this system
