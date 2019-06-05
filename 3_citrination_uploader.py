@@ -24,7 +24,7 @@ def citrination_uploader():
     # Upload the converted files directory
     upload_result = data_client.upload(dataset_id=dataset_id, source_path=SOURCE_DIR)
     
-    # number of successfully uploaded files
+    # Print number of successfully uploaded files
     print('Number of successful uploads: {}'.format(len(upload_result.successes))) 
 
 if __name__ == "__main__":
