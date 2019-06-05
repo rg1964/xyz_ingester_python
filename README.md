@@ -29,7 +29,7 @@ This is an implementation of an ingester to transform a Python pandas dataframe 
 It includes a function [xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) that takes in a Python pandas dataframe and outputs a PIF file.
 The test uses data from [QM9](https://figshare.com/articles/Data_for_6095_constitutional_isomers_of_C7H10O2/1057646).
 This is a relatively large data set, and one ca use only a representative subset of this data for illustration purposes.
-The main journal article that describes this data set (and the data file structure) can be found [here](https://www.nature.com/articles/sdata201422).
+The main journal article that describes this data set (and the data file structure .XYZ) can be found [here](https://www.nature.com/articles/sdata201422).
 
 ## Getting Started
 
@@ -53,11 +53,11 @@ This project has been developed with Python 3.7.3, and the following packages ar
 
 This repository contains 4 files, that should be used in a sequential manner:
 
-1. Download the full QM9 dataset archive and extract it to predefined local directory "GDB-9-molecules-all":
+1. Download the full QM9 dataset archive and extract it to predefined local directory "GDB-9-molecules-all" by using [0_GDB-9_files_downloader.py](https://github.com/rg1964/xyz_ingester_python/blob/master/0_GDB-9_files_downloader.py):
 ```
 python.exe 0_GDB-9_files_downloader.py
 ```
-2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory "Randomized-xyz" with the selected files: 
+2. Select at random a user-defined number of files from the downloaded and extracted archive and populate a pre-defined directory "Randomized-xyz" with the selected files by using [1_random_files_selector.py](https://github.com/rg1964/xyz_ingester_python/blob/master/1_random_files_selector.py): 
 
 ```
 usage: 1_random_files_selector.py [-h] [-n NRFILES]
@@ -77,7 +77,28 @@ For example, to randomly select 200 .XYZ files from the archive and place them i
 ```
 python.exe 1_random_files_selector.py -n 200
 ```
+3. Convert the random selection of .xyz files into PIF format with the aid of [2_xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py):
+```
+python.exe' 2_xyz_converter.py -a D:\Citrine\xyz_ingester_python\Randomized-xyz\
+```
+The general format for using [xyz_converter.py](https://github.com/rg1964/xyz_ingester_python/blob/master/2_xyz_converter.py) is this:
+```
+usage: 2_xyz_converter.py [-h] (-l LISTD LISTD | -a ALLD | -f FILES)
 
+convert xyz file(s) to pif
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l LISTD LISTD, --listd LISTD LISTD
+                        2 arguments: the source directory full path and a
+                        comma separated list of filenames to process in that
+                        directory
+  -a ALLD, --alld ALLD  1 argument: the source directory full path path where
+                        all files of .xyz type reside
+  -f FILES, --files FILES
+                        1 argument: a comma separated list of filenames with
+                        their full paths to process
+```
 ## Running the tests
 
 Explain how to run the automated tests for this system
