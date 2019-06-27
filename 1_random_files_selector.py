@@ -37,7 +37,15 @@ def random_files_selector(*args):
     # use the python random module function random.sample to return a "nr_files"
     # length list "filename" of unique elements chosen from the source directory
     nr_files = int(args.nrfiles)
-    filenames = random.sample(os.listdir(SOURCE_DIR), nr_files)
+    #filenames = random.sample(os.listdir(SOURCE_DIR), nr_files)
+    # list all files in dir
+    #files = [f for f in os.listdir(SOURCE_DIR) if os.path.isfile(f)]
+    #filenames = np.random.choice(files, nr_files)
+
+    filenames = random.sample(os.listdir(SOURCE_DIR), 100)
+    #for fname in filenames:
+    #    srcpath = os.path.join(SOURCE_DIR, fname))
+    #    shutil.copyfile(srcpath, DEST_DIR)
     
     # for each randomly selected file get the full path, get the file size
     # (in MB) and if it satisfies the size requirement of not exceeding 

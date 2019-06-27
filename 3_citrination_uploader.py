@@ -1,6 +1,7 @@
 from citrination_client import *
 import random
 import string
+from os import environ
 
 SOURCE_DIR = 'GDB-9-molecules-pif'    
 
@@ -10,7 +11,9 @@ def citrination_uploader():
     Specifically it takes all the files in the DEST_DIR directory and uploads them
     on Citrination. Prints the number of files successfully uploaded.
     """
-    client = CitrinationClient(environ['CITRINATION_API_KEY'], 'https://citrination.com')
+    site = 'https://citrination.com' # public site
+    environ_variab = environ['CITRINATION_API_KEY']
+    client = CitrinationClient(api_key = environ_variab, site = site)
     data_client = client.data
     
     # generate a random 5 digit string to distinctly define the name of the dataset 

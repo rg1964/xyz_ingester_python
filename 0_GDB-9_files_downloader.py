@@ -74,11 +74,11 @@ def main():
     # open the tarfile FILE in default read mode
     tar = tarfile.open(FILE)
 
-    # create the destination directory where all archoved files will be extracted to
+    # create the destination directory where all archived files will be extracted to
     create_target_directory(DEST_DIR)
 
     # extract all members from the archive to the pre-defined directory path
-    tar.extractall(members=xyz_files(tar), path = '.\\' + DEST_DIR)
+    tar.extractall(members=xyz_files(tar), path = DEST_DIR)
 
     # close the tarfile
     tar.close()
