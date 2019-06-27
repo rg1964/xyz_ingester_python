@@ -1,4 +1,4 @@
-import shutil, random, os, argparse, np
+import shutil, random, os, argparse
 
 # Individual files cannot be larger than 200MB.
 # Defined below as FILE_MAX_SIZE 
